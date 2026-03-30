@@ -1,0 +1,12 @@
+# VS Code settings
+.vscode/
+
+# Compiled executables
+*.exe
+*.out
+*.o
+
+# Other build artifacts
+*.obj
+*.ilk
+*.pdb
