@@ -9,13 +9,14 @@
         int n,a;
         cin>>n;
         int ans=1;
+        // 4 2 1 5 3
         vector<int> temp(n+2,0);
         vector <int> v (n);
         for(int i = 0; i < n; i++) {
             cin>>a;
             if(temp[a+1])
                 ans++;
-            temp[a]=1;
+            temp[a]=1;  
         }
         cout << ans << endl;
         return 0;
